@@ -1,1 +1,725 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acevision</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/slippry.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+
+</head>
+<body><header class="navbar navbar-inverse" id="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-top">
+                <span class="menu-text">menu</span>
+                <span class="navbar-toggle-bg">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+            </button>
+            <a class="navbar-brand" href="index.html" title="Acevision"><img src="images/logo.png" alt="Acewision" /></a>
+        </div>
+        <nav class="collapse navbar-collapse navbar-collapse-top">
+            <ul class="nav navbar-nav home-page-nav">
+                <li><a href="javascript:void(0)" data-section="slider"><span>home</span></a></li>
+                <li><a href="javascript:void(0)" data-section="about-us"><span>about</span></a></li>
+                <li><a href="javascript:void(0)" data-section="team"><span>team</span></a></li>
+                <li><a href="javascript:void(0)" data-section="recent-works"><span>portfolio</span></a></li>
+                <li><a href="javascript:void(0)" data-section="blog"><span>blog</span></a></li>
+                <li><a href="javascript:void(0)" data-section="contact-us"><span>contact</span></a></li>
+                <li><a href="javascript:void(0)" data-section="get-job"><span>get job</span></a></li>
+            </ul>
+        </nav>
+    </div>
+</header><section id="slider">
+    <ul id="slippry">
+        <li>
+            <div>
+                <img src="images/slider/home1.jpg" alt="">
+                <div class='lg-headers lg-headers-dark slider-text text-center-sm'>
+                    <div class="container">
+                        <span>WE ARE THE BEST</span>
+                        <strong>INTERACTIVE AGENCY</strong><small>Lorem ipsum dolor sit amet enim. Etiam ullamcorper.<br />
+                            Suspendisse a pellentesque dui, non felis.</small>
+                        <a href='javascript:void(0)' class='btn margin-right scroll-to-button' data-scrolltarget="about-us">Read why</a><span class="or">or</span><a class='btn margin-left' id="watch-video" href='javascript:void(0)'>Watch video</a>
+                    </div>
+                </div>
+                <div class="opacity50"></div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="images/slider/video.png" alt="">
+            </div>
+        </li>
+    </ul>
+</section><section id="about-us">
+    <div class="container">
+        <div class="row text-center">
+            <h2>Giving voice to ideas</h2>
+            <span>Read about our comapny, check why we are the best!</span>
+        </div>
+        <div class="row about-us text-center-xs">
+            <div class="col-sm-4 col-xs-12">
+                <h3 class="h2 h2-md"><span class="sprite-icon sprite-icon_award icon-margin-left"></span><span class="col-xs-12 extralight-font">17 awards</span></h3>
+                <p>
+                    Lorem ipsum dolor sit amet enim. Etiam
+                    ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis.
+                </p>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <h3 class="h2 h2-md"><span class="sprite-icon sprite-icon_coffey icon-margin-left"></span><span class="col-xs-12 extralight-font">13.OOO cups</span></h3>
+                <p>
+                    Lorem ipsum dolor sit amet enim. Etiam
+                    ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis.
+                </p>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <h3 class="h2 h2-md"><span class="sprite-icon sprite-icon_ideas icon-margin-left"></span><span class="col-xs-12 extralight-font">creative ideas</span></h3>
+                <p>
+                    Lorem ipsum dolor sit amet enim. Etiam
+                    ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis.
+                </p>
+            </div>
+        </div>
+        <div class="row describe-panel top-bordered text-center-xs">
+            <h3 class="col-sm-4 h2">Our mission</h3>
+            <div class="col-sm-8">
+                <p>
+                    Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam
+                </p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <h2>Trusted worldwide</h2>
+            <span class="section-describe section-describe-top">Over 47 companies, has trusted our company!</span>
+            <div id="companies" class="row hidden-sm hidden-md hidden-md hidden-lg visible-xs">
+                <div class="col-xs-12"><a href="#"><img alt="Company1" src="images/team/company_1.png" /></a></div>
+                <div class="col-xs-12"><a href="#"><img alt="Company2" src="images/team/company_2.png" /></a></div>
+                <div class="col-xs-12"><a href="#"><img alt="Company3" src="images/team/company_3.png" /></a></div>
+                <div class="col-xs-12"><a href="#"><img alt="Company4" src="images/team/company_4.png" /></a></div>
+                <div class="col-xs-12"><a href="#"><img alt="Company5" src="images/team/company_5.png" /></a></div>
+            </div>
+            <div class="row visible-sm visible-md hidden-xs">
+                <div class="col-sm-12">
+                    <a href="#"><img alt="company name" title="company name" src="images/team/companies.jpg" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="row reviews">
+    <div class="col-md-4 col-sm-6">
+        <div class="review sky-panel box-arrow-down">
+            <p>
+                @acevision is awesome!
+                They are making the best websites
+                in the whole world.
+            </p>
+        </div>
+        <div class="review_author">
+            <div class="img-circle"><span class="sprite-icon sprite-icon_chris"></span></div>
+            <p>
+                <a href="#"><strong>Chris Doe</strong></a><br />
+                <span>@chris_doe</span>
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6 hidden-xs">
+        <div class="review sky-panel box-arrow-down">
+            <p>
+                @acevision is awesome!
+                They are making the best websites
+                in the whole world.
+            </p>
+        </div>
+        <div class="review_author">
+            <div class="img-circle"><span class="sprite-icon sprite-icon_dan"></span></div>
+            <p>
+                <a href="#"><strong>Dan Ridley</strong></a><br />
+                <span>@dan_dan</span>
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4 hidden-xs hidden-sm">
+        <div class="review sky-panel box-arrow-down">
+            <p>
+                @acevision is awesome!
+                They are making the best websites
+                in the whole world.
+            </p>
+        </div>
+        <div class="review_author">
+            <div class="img-circle"><span class="sprite-icon sprite-icon_john"></span></div>
+            <p>
+                <a href="#"><strong>John Smith</strong><br /></a>
+                <span>@john_smith</span>
+            </p>
+        </div>
+    </div>
+</div>    </div>
+</section><section id="team">
+    <div class="full-width-image-team">
+        <div class="container lg-headers text-center-xs">
+            <span>MEET OUR TEAM</span>
+            <strong>THE BEST PEOPLE</strong>
+            <small>Lorem ipsum dolor sit amet enim. Etiam ullamcorper.<br />
+                Suspendisse a pellentesque dui, non felis.</small>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row describe-panel top-bordered text-center-xs">
+            <h3 class="col-sm-4 h2">Our team</h3>
+            <div class="col-sm-8">
+                <p>
+                    Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-9">
+                <ul id="team-members-carousel" class="es-slides grayscale">
+                    <li>
+                        <div class="theme-background">
+                            <img src="images/team/jack.png" alt="" />
+                        </div>
+                        <strong class="bold-font member-name hidden-xs">John Smith</strong>
+                        <span class="member-position hidden-xs">Creative Director</span>
+                        <p class="member-description hidden">Manager of multiplie projects, working from concept through completion</p>
+                    </li>
+                    <li>
+                        <div class="theme-background">
+                            <img src="images/team/cris.png" alt="" />
+                        </div>
+                        <strong class="bold-font member-name hidden-xs">Cris Doe</strong>
+                        <span class="member-position hidden-xs">Web Designer</span>
+                        <p class="member-description hidden">A profesional graphic designer, Logo & Brand Identity Specialist</p>
+                    </li>
+                    <li>
+                        <div class="theme-background">
+                            <img src="images/team/jesica.png" alt="" />
+                        </div>
+                        <strong class="bold-font member-name hidden-xs">Jesica Simson</strong>
+                        <span class="member-position hidden-xs">Account Manager</span>
+                        <p class="member-description hidden">Responsible for the management of sales and relationship with customers</p>
+                    </li>
+                    <li>
+                        <div class="theme-background">
+                            <img src="images/team/dan.png" alt="" />
+                        </div>
+                        <strong class="bold-font member-name hidden-xs">Dan Ridley</strong>
+                        <span class="member-position hidden-xs">PHP Developer</span>
+                        <p class="member-description hidden">Creates and implements a wide variety of web-based products using PHP</p>
+                    </li>
+                    <li>
+                        <div class="theme-background">
+                            <img src="images/team/john.png" alt="" />
+                        </div>
+                        <strong class="bold-font member-name hidden-xs">John Doe</strong>
+                        <span class="member-position hidden-xs">HTML/CSS Integrator</span>
+                        <p class="member-description hidden">Creates simple JavaScript features and integrating sites</p>
+                    </li>
+                    <li>
+                        <div class="theme-background">
+                            <img src="images/team/carol.png" alt="" />
+                        </div>
+                        <strong class="bold-font member-name hidden-xs">Carol Washington</strong>
+                        <span class="member-position hidden-xs">Front End Web Developer</span>
+                        <p class="member-description hidden">Specialized in improvment of visual part of the website, one of the company originators</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 text-center-xs" id="member-informations">
+                <strong class="bold-font member-name"></strong>
+                <span class="member-position"></span>
+                <p class="member-description"></p>
+                <div class="owl-buttons"><div class="owl-prev member-prev"></div><div class="owl-next member-next"></div></div>
+            </div>
+        </div>
+    </div>
+</section><section id="recent-works">
+    <div class="container">
+        <div class="row recent-works text-center">
+            <h2>Recent works</h2>
+            <span class="section-describe section-describe-top">Simple is better than complex</span>
+        </div>
+
+        <!-- The GRID System -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="relative" id="recent-works-list">
+
+                    <div class="recent-work pull-left width33">
+                        <img src="images/recent_works/work1.png" alt="" />
+                        <div class="mega-hover text-center" >
+                            <div class="mega-hovertitle">
+                                <div class="mega-hovermaintitle"><a href="recent-work.html">Bamf</a></div>
+                                <div class="mega-hoversubtitle">Print Design</div>
+                                <p class="mega-hoverdesc hidden-xs">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.</p>
+                                <br />
+                                <a href="recent-work.html" class="btn btn-lg active">Details</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="recent-work pull-left width66">
+                        <img src="images/recent_works/work2.png" alt="" />
+                        <div class="mega-hover text-center" >
+                            <div class="mega-hovertitle">
+                                <div class="mega-hovermaintitle"><a href="recent-work.html">Bamf</a></div>
+                                <div class="mega-hoversubtitle">Print Design</div>
+                                <p class="mega-hoverdesc hidden-xs">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                                <br />
+                                <a href="recent-work.html" class="btn btn-lg active">Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="recent-work pull-left width33">
+                        <img src="images/recent_works/work3.png" alt="" />
+                        <div class="mega-hover text-center" >
+                            <div class="mega-hovertitle">
+                                <div class="mega-hovermaintitle"><a href="recent-work.html">Bamf</a></div>
+                                <p class="mega-hoverdesc hidden-xs">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                                <br />
+                                <a href="recent-work.html" class="btn btn-lg active">Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="recent-work pull-left width33">
+                        <img src="images/recent_works/work4.png" alt="" />
+                        <div class="mega-hover text-center" >
+                            <div class="mega-hovertitle">
+                                <div class="mega-hovermaintitle"><a href="recent-work.html">Bamf</a></div>
+                                <div class="mega-hoversubtitle">Print Design</div>
+                                <p class="mega-hoverdesc hidden-xs">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                                <br />
+                                <a href="recent-work.html" class="btn btn-lg active">Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="recent-work pull-left width33">
+                        <img src="images/recent_works/work5.png" alt="" />
+                        <div class="mega-hover text-center" >
+                            <div class="mega-hovertitle">
+                                <div class="mega-hovermaintitle"><a href="recent-work.html">Bamf</a></div>
+                                <div class="mega-hoversubtitle">Print Design</div>
+                                <p class="mega-hoverdesc hidden-xs">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                                <br />
+                                <a href="recent-work.html" class="btn btn-lg active">Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="recent-work pull-left width33">
+                        <img src="images/recent_works/work6.png" alt="" />
+                        <div class="mega-hover text-center" >
+                            <div class="mega-hovertitle">
+                                <div class="mega-hovermaintitle"><a href="recent-work.html">Bamf</a></div>
+                                <div class="mega-hoversubtitle">Print Design</div>
+                                <p class="mega-hoverdesc hidden-xs">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                                <br />
+                                <a href="recent-work.html" class="btn btn-lg active">Details</a>
+			    </div>
+                        </div>
+                    </div>
+
+
+                    <div class="recent-work pull-left width33">
+                        <img src="images/recent_works/work7.png" alt="" />
+                        <div class="mega-hover text-center" >
+                            <div class="mega-hovertitle">
+                                <div class="mega-hovermaintitle"><a href="recent-work.html">Bamf</a></div>
+                                <a href="recent-work.html" class="btn btn-lg active">Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <br /><br />
+            <button class="btn" id="recent-works-more">Load more</button>
+        </div>
+    </div>
+</section>
+<section id="blog">
+    <div class="container">
+        <div class="row text-center">
+            <h2>Blog</h2>
+            <span class="section-describe">Read about news, and life in our company.</span>
+        </div>
+        <div class="row posts hidden-xs">
+            <div id="posts-carousel" class="blog-posts-carousel">
+                <div>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">What to Expect at a Drupal Meetup</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">8.12.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">Change and Flexibility</a></h3>
+                            </header>
+                            <p>Change can come in any number of forms. Companies can be going through large-scale changes like reorganization, mergers, or acquisitions, they can be launching new policies, products or processes, or there can be the introduction of new employees/management.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">7.12.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">Criss Jones</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">7 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">Help repeal the Tech Tax</a></h3>
+                            </header>
+                            <p>Change can come in any number of forms. Companies can be going through large-scale changes like reorganization, mergers, or acquisitions, they can be launching new policies, products or processes, or there can be the introduction of new employees/management.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">5.12.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">The Weekly Review</a></h3>
+                            </header>
+                            <p>WordPress is probably the best known of all the blogging tools. To set up a basic blog is completely free and this includes taking advantage of the professionally designed templates and having your blog hosted.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">8.03.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">0 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">The Weekly Review</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">8.02.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">What to Expect at a Drupal</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">7.02.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">What to Expect at a Drupal Meetup</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">8.06.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">Help repeal the Tech Tax</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">8.06.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">Help repeal the Tech Tax</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">8.05.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">What to Expect at a Drupal Meetup</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">7.05.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">What to Expect at a Drupal</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">6.04.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="row top-bordered">
+                        <div class="col-sm-9 col-md-9">
+                            <header>
+                                <h3 class="h2 h2-md"><a href="post.html">What to Expect at a Drupal Meetup</a></h3>
+                            </header>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">5.04.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="row posts visible-xs">
+            <div id="posts-carousel-mobile" class="blog-posts-carousel">
+                <div>
+                    <article class="top-bordered">
+                        <div class="col-xs-12 text-center">
+                            <header>
+                                <h3 class="h2"><a href="post.html">Change and Flexibility</a></h3>
+                            </header>
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">8.12.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                    </article>
+                </div>
+                <div>
+                    <article class="top-bordered">
+                        <div class="col-xs-12 text-center">
+                            <header>
+                                <h3 class="h2"><a href="post.html">Help repeal the Tech Tax</a></h3>
+                            </header>
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">6.12.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                    </article>
+                </div>
+                <div>
+                    <article class="top-bordered">
+                        <div class="col-xs-12 text-center">
+                            <header>
+                                <h3 class="h2"><a href="post.html">The Weekly Review</a></h3>
+                            </header>
+                            <ul class="list-unstyled post-info">
+                                <li><span class="sprite-icon sprite-icon_calendar"></span> <time datetime="2013-12-03">13.11.13</time></li>
+                                <li><span class="sprite-icon sprite-icon_author"></span> <span>Posted by: <a href="#" class="gray-link">John Doe</a></span></li>
+                                <li><span class="sprite-icon sprite-icon_comments"></span> <span><a href="post.html" class="gray-link">3 comments</a></span></li>
+                            </ul>
+                            <p>The Chicago Drupal Meet Up Group has been hosting free training events since 2006 and now starting in 2013 we're
+                                syncing these events with Global Training Days around the world. Not only will you be learning Drupal, but so will hundreds of people around the world.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><section id="contact-us">
+    <div class="container">
+        <div class="row text-center">
+            <h2>Contact us</h2>
+            <span class="section-describe section-describe-top">Get in touch.</span>
+        </div>
+        <form role="form" id="contact-form">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-xs-12">
+                    <div class="form-group">
+                        <input name="fullname" required type="text" class="form-control" placeholder="FULL NAME*" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="COMPANY NAME" />
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xs-12">
+                    <div class="form-group">
+                        <input name="emailaddress" required type="email" class="form-control" placeholder="E-MAIL ADDRESS*" />
+                    </div>
+                    <div class="form-group">
+                        <input name="phone" required type="text" class="form-control" placeholder="PHONE (NO SPACES)*" />
+                    </div>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-lg-12">
+                    <input name="describe" required type="text" class="form-control" placeholder="DESCRIBE YOUR PROJECT*" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-xs-12 form-group">
+                    <input name="timeline" required type="text" class="form-control" placeholder="TIMELINE*" />
+                </div>
+                <div class="col-sm-6 col-md-6 col-xs-12 form-group">
+                    <input name="budget" required type="text" class="form-control" placeholder="BUDGET*" />
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-lg-12">
+                    <input type="text" class="form-control" placeholder="ADDITIONAL COMMENTS" />
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn">Send message</button>
+            </div>
+        </form>
+    </div>
+</section><section id="get-job">
+    <div class="container">
+        <div class="row text-center lg-headers lg-headers-dark">
+            <span class="bold-font">Live your dreams,</span>
+            <strong class="extralight-font">Love your job</strong>
+            <br />
+            <small>Acevision is looking for amazing people for our team. If you have unusual skills <br />
+                and you like working with big clients, just send your CV!</small>
+            <br />
+            <br />
+            <a href="mailto:ras@dpro.pl" class="btn">Send your CV</a>
+        </div>
+    </div>
+</section><footer>
+    <div class="container text-center-xs">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12 pull-right">
+                <p>
+                    Get in touch<br/>
+                    hello@acevision.com
+                </p>
+                <p class="social-media">
+                    <a href="#"><span class="sprite-icon sprite-icon_play"></span></a>
+                    <a href="#"><span class="sprite-icon sprite-icon_v"></span></a>
+                    <a href="#"><span class="sprite-icon sprite-icon_facebook"></span></a>
+                    <a href="#"><span class="sprite-icon sprite-icon_ball"></span></a>
+                    <a href="#"><span class="sprite-icon sprite-icon_skype"></span></a>
+                </p>
+            </div>
+            <div class="col-sm-8 col-xs-12">
+                <a href="index.html" class="logo-dark" title="Acevision"><img src="images/logo-dark.png" alt="Acevision" /></a>
+                <p>
+                    Lorem ipsum dolor sit amet enim. Etiam ullamcorper.<br/>
+                    Suspendisse a pellentesque dui, non felis.<br/>
+                    Maecenas malesuada elit lectus felis, malesuada ultricies.<br/>
+                </p>
+                <br />
+                <p>&copy; 2013 acevision. All rights reserved!</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/modernizr.2.7.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/slippry.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/masonry.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/validation.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
